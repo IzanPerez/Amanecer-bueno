@@ -93,4 +93,13 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    public void Atardecer()
+    {
+        if (wall != null)   // only if it's painted already...
+        {
+            sun.slowMoveVertical(120);
+
+        }
+    }
 }
